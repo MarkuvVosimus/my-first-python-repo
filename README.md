@@ -1,6 +1,6 @@
 # my-first-python-repo
 My progress in learning the programming language Python
-#############################################################################################x
+#############################################################################################
 06/08/2026
 - i started this repo because why not
 - already learning python thru freeCodeCamp (i am not a gatekeeper so use if you want)
