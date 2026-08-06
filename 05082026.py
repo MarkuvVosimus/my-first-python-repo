@@ -18,4 +18,5 @@ if str(bill_per_person)[::-1].find('.') > 2:
     float(bill_per_person)
     bill_per_person = round(bill_per_person, 2)
 print(f'Each person will pay: ${bill_per_person}')
+# tenk you bradar pak you bradar no copyright use anywhere
 
