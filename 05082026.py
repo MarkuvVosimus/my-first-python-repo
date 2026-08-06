@@ -10,6 +10,9 @@ try:
 except ValueError:
     print("All values must be numbers.")
     quit()
+if people == 0:
+    print('No one is paying, dine and dash')
+    quit()
 # logik
 tip_amount = bill_amount * (int(tip) / 100)
 bill_with_tip = bill_amount + tip_amount
@@ -18,5 +21,3 @@ if str(bill_per_person)[::-1].find('.') > 2:
     float(bill_per_person)
     bill_per_person = round(bill_per_person, 2)
 print(f'Each person will pay: ${bill_per_person}')
-# tenk you bradar pak you bradar no copyright use anywhere
-
